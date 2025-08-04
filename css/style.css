@@ -28,15 +28,16 @@ html{
 body{
     width: 100vw;
     height:100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: auto;
 }
 
 .main {
+    height:100%;
     flex-grow: 1;
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .card {
     margin:auto;
