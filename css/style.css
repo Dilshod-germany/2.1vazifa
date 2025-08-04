@@ -11,6 +11,7 @@
     outline: 2px solid red;
     outline-offset: 3px;
 }
+
 ol,ul{
     list-style: none;
 }
@@ -38,7 +39,7 @@ body{
     background-color: black;
 }
 .card {
-    margin: 0 auto;
+    margin:auto;
     width: 384px;
     height: 611px;
     border-radius: 12px;
