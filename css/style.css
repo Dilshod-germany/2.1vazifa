@@ -16,6 +16,7 @@ ol,
 ul {
   list-style: none;
 }
+
 a {
   text-decoration: none;
   display: inline-block;
@@ -40,7 +41,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin:auto;
+  margin: auto;
 }
 
 .card {
@@ -91,25 +92,18 @@ body {
 
 .card__item {
   margin-bottom: 16px;
-  padding: 12px;
-  gap: 8px;
-  border-radius: 8px;
-  background-color: #333333;
-  height: 45px;
-  width: 304px;
+   border-radius: 8px;
   display: flex;
   justify-content: center;
 }
 
-.card__item:active {
-  background-color: #c4f82a;
-}
 
 .card__items:not(:last-child) {
   margin-bottom: 16px;
 }
 
 .card__item__link {
+  padding: 12px;
   font-family: "Inter";
   font-weight: 700;
   font-size: 14px;
@@ -117,7 +111,20 @@ body {
   letter-spacing: 0%;
   color: #ffffff;
   text-align: center;
+  gap: 8px;
+  border-radius: 8px;
+  background-color: #333333;
+  height: 45px;
+  width: 304px;
 }
-.card__item:active .card__item__link {
+
+.card__item__link:hover {
   color: #333333;
+  background-color: #c4f82a;
+ 
+}
+
+.card__item:active {
+  transform: scale(1.04);
+  opacity: 0.6;
 }
